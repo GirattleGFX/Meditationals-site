@@ -1,101 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <title>Hello World!</title>
-
-    <!-- Meta tags for SEO and social sharing -->
-    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
-    <meta
-      name="description"
-      content="A simple website, built with Glitch. Remix it to get your own."
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="300x250"
+      href="https://cdn.glitch.com/8b16c3ab-c949-462a-82d4-e1fa705dddc1%2Fbfee3e48-45fe-4095-8d99-0419152c62b1.image.png?v=1630331730953"
     />
-    <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="Hello World!" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <title>Discord bot website template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/Counting.js"></script>
+    <script src="js/untitled.js"></script>
+
+    <!--  Essential META Tags -->
+
+    <meta property="og:title" content="Discord Bot Website Template" />
     <meta
       property="og:description"
-      content="A simple website, built with Glitch. Remix it to get your own."
+      content="A free, easy to use website template for discord bots!"
     />
     <meta
       property="og:image"
-      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+      content="https://cdn.glitch.com/8b16c3ab-c949-462a-82d4-e1fa705dddc1%2Fbfee3e48-45fe-4095-8d99-0419152c62b1.image.png?v=1630331730953"
     />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content="http://botwebsitetemplate.glitch.me/" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <!-- Import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <!--  Non-Essential, But Recommended -->
 
-    <!-- Import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <meta
+      property="og:site_name"
+      content="Bot Website Template by GirattleGFX#8942"
+    />
+    <meta name="twitter:image:alt" content="Discord Screenshot" />
+    <meta name="theme-color" content="yellow">
+
+    <!--  Non-Essential, But Required for Analytics -->
+
+    <meta property="fb:app_id" content="girattle.gfx" />
+    <meta name="twitter:site" content="@GirattleGFX" />
   </head>
   <body>
-    <!--
-      This is the body of the page
-      Look at the elements and see how they appear in the rendered page on the right
-      Each element is defined using tags, with < and > indicating where each one opens and closes
-      There are elements for sections of the page, images, text, and more
-      The elements include attributes referenced in the CSS for the page style
-    -->
-
-    <!-- The wrapper and content divs set margins and positioning -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <!-- This is the start of content for our page -->
-        <h1 class="title">Hello World!</h1>
-
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <!-- Instructions on using this project -->
-        <div class="instructions">
-          <h2>
-            Using this project
-          </h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out README.md in the editor for
-            more info and next steps you can take!
-          </p>
-          <!-- ADD BUTTON HERE -->
-          
-          <!-- Once you've added the button from the readme, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+    <div id="navbar">
+      <nav class="navbar-container container">
+        <a href="/" class="home-link tada">
+          <img
+            class="navbar-logo flip"
+            src="https://cdn.glitch.com/8b16c3ab-c949-462a-82d4-e1fa705dddc1%2Fbfee3e48-45fe-4095-8d99-0419152c62b1.image.png?v=1630331730953"
+            alt="Logo"
+          />
+          Bot Name
+        </a>
+        <button
+          type="button"
+          class="navbar-toggle"
+          aria-label="Open navigation menu"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link rubberBand" href="#feature">Features</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link rubberBand" href="#cmds">Cmds</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link rubberBand" href="#support">Support</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
     </div>
-    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
+
+    <header>
+      <div class="tada-on-load">
+        <h1>Bot Name</h1>
+        <p>
+          a bot that does random things!
+        </p>
+        <a href="#"
+          ><button class="btn slideup-left">
+            Invite Now
+          </button></a
+        >
+        <a href="#feature"
+          ><button class="btn slideup-right">
+            Learn More
+          </button></a
+        >
+      </div>
+    </header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="var(--secondary-bg)"
+        fill-opacity="1"
+        d="M0,96L40,106.7C80,117,160,139,240,133.3C320,128,400,96,480,117.3C560,139,640,213,720,240C800,267,880,245,960,234.7C1040,224,1120,224,1200,234.7C1280,245,1360,267,1400,277.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+      ></path>
+    </svg>
+    <main>
+      <section id="feature">
+        <h2>
+          Bot Features
+        </h2>
+        <div class="row">
+          <div class="column3">
+            <div class="card-holder">
+              <div class="card">
+                <img src="#" />
+                <h3>
+                  Fast boi 1
+                </h3>
+                <p>
+                  This is a fast bot that stays at a 5ms ping!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column3">
+            <div class="card-holder">
+              <div class="card">
+                <img src="#" />
+                <h3>
+                  Fast boi 2
+                </h3>
+                <p>
+                  This is a fast bot that stays at a 5ms ping!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column3">
+            <div class="card-holder">
+              <div class="card">
+                <img src="#" />
+                <h3>
+                  Fast boi 3
+                </h3>
+                <p>
+                  This is a fast bot that stays at a 5ms ping!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="counterthingy">
+          <div class="container-fluid text-white">
+            <div class="row" style="color: var(--secondary-txt);">
+              <div class="love_counter column2">
+                <h1 class="love_count" style="font-size: 70px;">
+                  <strong>123</strong>
+                </h1>
+                <h4 style="color: var(--primary);margin-top: -6px;">
+                  Total Servers
+                </h4>
+              </div>
+              <div class="love_counter column2">
+                <h1 class="love_count" style="font-size: 70px;">
+                  <strong>6478</strong>
+                </h1>
+                <h4 style="color: var(--primary);margin-top: -6px;">
+                  Total Users
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="cmds">
+        <h2>All Commands</h2>
+        <button class="collapsible">Moderation Commands</button>
+        <div class="collapsible-content">
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+        </div>
+        <button class="collapsible">Economy Commands</button>
+        <div class="collapsible-content">
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+        </div>
+        <button class="collapsible">Fun Commands</button>
+        <div class="collapsible-content">
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+          <p>!command - command description</p>
+        </div>
+      </section>
+      <section id="support">
+        <h2>
+          Need help? Join our support server!
+        </h2>
+        <a
+          ><button class="btn tada">
+            Join Now
+          </button></a
+        >
+      </section>
+    </main>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="var(--secondary-bg)"
+        fill-opacity="1"
+        d="M0,224L34.3,202.7C68.6,181,137,139,206,154.7C274.3,171,343,245,411,229.3C480,213,549,107,617,85.3C685.7,64,754,128,823,165.3C891.4,203,960,213,1029,197.3C1097.1,181,1166,139,1234,122.7C1302.9,107,1371,117,1406,122.7L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+      ></path>
+    </svg>
+    <footer>
+      <h3>
+        made with <span style="color: red">❤</span> by
+        <a href="https://facebook.com/girattle.gfx/">@GirattleGFX</a>
+      </h3>
     </footer>
   </body>
 </html>

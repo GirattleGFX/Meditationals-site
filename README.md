@@ -1,30 +1,27 @@
-# Hello website!
+Discord Bot Website Template
+=================
 
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
+A easy to use website template for your Discord bot!
 
-## What's in this project?
+This website template uses vars for all the colors, so if you need to change the background color, the main color, or even the text color, just go to the top of the **css/style.css** folder and change them in the root tag!
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
 
-← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!
+Get Started
+------------
 
-← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.
+### ← index.html
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.
+This is all the HTML coding for the webpage, go here to change the text, layout, links, and more!
 
-Open each file and check out the comments (in gray) for more info.
+### ← style.css
 
-## Try this next 🏗️
+This is where all the websites CSS is, go here to change the colors of the background, text, and primary color!
 
-Take a look in `TODO.md` for next steps you can try out in your new site!
+### ← script.js
 
-___Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!___
+This is where the main JavaScript coding is, for the navBar and the smooth scrolling. Don't touch this file unless you know what your doing! XD
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+Website template made by [GirattleGFX](https://discord.green/girattles-lounge)
+-------------------
 
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+This website template is free to use! All you have to do is credit me :D
