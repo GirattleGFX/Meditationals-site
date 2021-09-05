@@ -1,5 +1,8 @@
+@import 'style.css';
+
 .glow {
-  color: #fff;
+  color: var
+    var(--text);
   -webkit-animation: glow 1.5s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
   animation: glow 1.5s ease-in-out infinite alternate;
@@ -7,8 +10,8 @@
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px limegreen,
-      0 0 25px limegreen;
+    text-shadow: 0 0 5px var(--text), 0 0 10px var(--text), 0 0 15px var(--primary),
+      0 0 25px var(--primary);
   }
   to {
     color: grey;
