@@ -159,7 +159,7 @@ html {
   max-height: none;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 960px) {
   .navbar-toggle {
     display: none;
   }
@@ -308,7 +308,7 @@ svg {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .column3, .column2 {
     width: 100%;
   }
