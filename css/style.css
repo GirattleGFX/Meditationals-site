@@ -13,6 +13,25 @@ html {
   scroll-behavior: smooth;
 }
 
+.navLogo {
+  position: absolute;
+  background: var(--background);
+  transition-duration: 0.5s;
+ }
+
+.navLogo:hover {
+  opacity: 0;
+ }
+
+.active {
+  border: none;
+  display: hidden;
+}
+
+.active:hover {
+  display: block;
+}
+
 #navbar {
   --navbar-height: 64px;
   position: fixed;
