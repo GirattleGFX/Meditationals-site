@@ -270,15 +270,7 @@ section {
   padding: 50px;
 }
 
-#feature {
-  background-color: var(--secondary-bg);
-}
-
-#cmds {
-  background-color: var(--background);
-}
-
-#support {
+#product {
   background-color: var(--secondary-bg);
 }
 
