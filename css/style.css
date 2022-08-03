@@ -4,6 +4,7 @@
   --background: #000000;
   --secondary-bg: #101010;
   --bg-image: url("https://media.discordapp.net/attachments/709241456577085490/1003800566113259570/unknown.png?width=1197&height=674");
+  --bg-image2: url("https://pbblogassets.s3.amazonaws.com/uploads/2019/03/04142545/pancake-cover.jpg");
   --text: #f5f5f5;
   --secondary-txt: #ffffff;
   --primary: #faa61a;
@@ -41,7 +42,6 @@ html {
   left: 0;
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  border-bottom: 3px solid var(--primary);
   z-index: 55;
 }
 
@@ -212,14 +212,14 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 2px;
 }
 ::-webkit-scrollbar-track {
   background: var(--background);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--primary); 
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 html,
@@ -297,8 +297,12 @@ section {
   padding: 50px;
 }
 
-#product {
+.bg-light {
   background-color: var(--secondary-bg);
+}
+
+.bg-dark {
+  background-color: var(--background);
 }
 
 footer {
@@ -324,6 +328,10 @@ a {
   height: auto;
   padding: 20px;
   border-radius: 15px;
+}
+
+.product-card {
+  background-image: var(--bg-image2);
 }
 
 svg {
