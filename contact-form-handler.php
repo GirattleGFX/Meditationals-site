@@ -1,3 +1,4 @@
+<?php
 $errors = '';
 $myemail = 'lleisediting@gmail.com';
 if(empty($_POST['name'])  || 
