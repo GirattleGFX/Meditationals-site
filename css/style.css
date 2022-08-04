@@ -270,10 +270,11 @@ header {
 
 .btn {
   background-color: var(--secondary-bg);
-  border: 2px solid var(--primary);
+  border: 2px solid var(--background);
   color: var(--primary);
   padding: 5px 10px 5px 10px;
-  border-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
   font-weight: bold;
   outline: none;
   cursor: pointer;
@@ -291,7 +292,42 @@ header {
 .btn:focus {
   background: var(--primary);
   color: var(--background);
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
 }
+
+.subbtn {
+  background-color: var(--secondary-bg);
+  border: 2px solid var(--background);
+  color: var(--primary);
+  padding: 5px 10px 5px 10px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.subbtn:hover,
+.subbtn:focus {
+  background: var(--primary);
+  color: var(--background);
+}
+
+imput {
+  background-color: var(--secondary-bg);
+}yo mf answer me nerd answer the phone
 
 section {
   padding: 50px;
