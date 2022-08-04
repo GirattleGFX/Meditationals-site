@@ -15,10 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.divider1 {
-  color: ;
-}
-
 .navLogo {
   position: absolute;
   background: var(--background);
@@ -332,6 +328,17 @@ a {
   height: auto;
   padding: 20px;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.form-card {
+  background-color: var(--background);
+  border: none;
+  width: 30em;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .product-card {
