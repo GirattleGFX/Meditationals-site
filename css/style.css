@@ -239,6 +239,7 @@ body {
 header {
   background-color: var(--background);
   padding-top: 6em;
+  padding-bottom: 3em;
 }
 
 .header-txt {
