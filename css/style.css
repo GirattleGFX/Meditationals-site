@@ -231,6 +231,11 @@ body {
   font-family : Arial, Helvetica, sans-serif;
 }
 
+.gradient {
+  background: linear-gradient(to right, yellow, cornflowerblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
 body {
   height: 100%;
   width: 100%;
