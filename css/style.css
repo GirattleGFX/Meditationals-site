@@ -325,9 +325,11 @@ header {
   color: var(--background);
 }
 
-imput {
+input, textarea {
   background-color: var(--secondary-bg);
-}yo mf answer me nerd answer the phone
+  border: 3px solid black;
+  border-radius: 5px;
+}
 
 section {
   padding: 50px;
