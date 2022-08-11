@@ -18,5 +18,12 @@ This is where all the websites CSS is, go here to change the colors of the backg
 
 This is where the main JavaScript coding is, for the navBar, smooth scrolling, and more. Don't touch this file unless you know what your doing! XD
 
+## Editing Info
 
-<img src="https://cdn.glitch.com/64fead86-45cd-464c-acb5-1c94ce2fe2cb%2F15272b5c-a24e-4d0f-97ed-2029c7de37fa.image.png?v=1630861723523">
+### Adding information
+
+This site only has one page, head over to **index.html** to edit any information. Everything is in sections, and sections are named with ID's so you know which section is which. For editing title text, find the title text you'd like to change in the file. It will be in a `h1`, `h2` or `h3` tag, to make it easier to find. Don't touch the tags, only edit the text with in the tags. The tags look like this `<h2>text here</h2>`. For editing paragraph text, it's the same way only using a different tag. The `<p></p>` tag is what you'll be looking for. If you want a text break in your paragraph to add another one, you can use `<br/>`, or create a new `<p></p>` tag.
+
+### Adding socials
+
+Socials for the contact section of code are easy, just copy the one you'd like to use and paste it under the comment tag that says "place socials here". Make sure to change the link of the social with your link to it. This is what the line of code looks like, so you know what to copy and paste: ``
