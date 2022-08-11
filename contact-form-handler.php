@@ -1,5 +1,6 @@
+<?php
 $errors = '';
-$myemail = 'girattlegfx@google.com';
+$myemail = 'girattlegfx@gmail.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -23,6 +24,8 @@ if( empty($errors))
 {
 
 $to = $myemail;
+    $from = 'no-reply@' . str_replace('www.', '', $_SERVER['SERVER_NAME']);
+    $headers = "From: $from\n";
 
 $email_subject = "Contact form submission: $name";
 
@@ -41,3 +44,4 @@ mail($to,$email_subject,$email_body,$headers);
 header('Location: contact-form-thank-you.html');
 
 }
+?>

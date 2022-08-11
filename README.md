@@ -26,4 +26,7 @@ This site only has one page, head over to **index.html** to edit any information
 
 ### Adding socials
 
-Socials for the contact section of code are easy, just copy the one you'd like to use and paste it under the comment tag that says "place socials here". Make sure to change the link of the social with your link to it. This is what the line of code looks like, so you know what to copy and paste: ``
+Socials for the contact section of code are easy, just copy the one you'd like to use and paste it under the comment tag that says "place socials here". Make sure to change the link of the social with your link to it. This is what the line of code looks like, so you know what to copy and paste: `<a href="https://twitter.com/Username"><i class="fa-brands fa-square-twitter"></i></a>`
+
+### Setting up a domain
+
