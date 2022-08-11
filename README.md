@@ -30,5 +30,12 @@ Socials for the contact section of code are easy, just copy the one you'd like t
 
 ### Setting up the contact form
 
-Go to **https://docs.google.com/forms**
+Go to **https://docs.google.com/forms**, create a new form. Add 3 questions, first one being "Name", second one being "Email", and the last one being "Message". Make sure to mark all of them as required, and make sure the email question will only allow real emails. You can add more or change the questions if you'd like, this is just a basic contact form. One that is done, click **send** > **embed** > **copy**. Once you have that, paste the copied code under the comment tag that says "place form code here". Once you have done that, find where it says "width" and "height". You need to change those to this: `width="85%" height="520"`. It's that simple!
+
+### Adding a domain
+
+Visit **https://www.youtube.com/watch?v=F9TBC-lTl3M** and watch the video on how to do it. If it doesn't work for you, try finding a video on youtube that explains how to do it using the host you are using.
+
+## All done!
+Once you have done all that ^ your website is all setup!
 
