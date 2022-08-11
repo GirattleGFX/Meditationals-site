@@ -1,6 +1,5 @@
 @import 'style.css';
 
-
 .flip {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;

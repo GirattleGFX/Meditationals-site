@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 :root {
+  /* Background colors & images */
   --background: #000000;
   --secondary-bg: #101010;
   --bg-image: url("https://media.discordapp.net/attachments/709241456577085490/1003800566113259570/unknown.png?width=1197&height=674");
   --bg-image2: url("https://pbblogassets.s3.amazonaws.com/uploads/2019/03/04142545/pancake-cover.jpg");
+
+  /* Colors */
   --text: #f5f5f5;
   --secondary-txt: #ffffff;
   --primary: #faa61a;
+  
+  /* Fonts */
   --font: "Quicksand", sans-serif;
 }
 
